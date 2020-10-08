@@ -11,4 +11,6 @@ To run unit tests and generate reports use:
 
 
 Reports are generated under /target/site/jacoco
+
+
 App logs are generated under /logs/{profile} where profile is either dev/test

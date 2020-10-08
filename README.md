@@ -9,7 +9,7 @@ To run unit tests and generate reports use:
 
 `mvn clean install test`
 
-
+---
 Reports are generated under /target/site/jacoco
 
 

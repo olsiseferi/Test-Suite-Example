@@ -1,0 +1,19 @@
+spring:
+  profiles: dev
+  jpa:
+    hibernate:
+      ddl-auto: update
+  datasource:
+    url: jdbc:postgresql://localhost:5432/test_suite
+    username: testsuite
+    password: testsuite
+    hikari:
+      connectionTimeout: 20000
+      maximumPoolSize: 5
+    initialization-mode: always
+logging:
+  file.name: logs/dev/app-dev.log
+  level:
+    org.springframework.web: DEBUG
+    org.hibernate: DEBUG
+

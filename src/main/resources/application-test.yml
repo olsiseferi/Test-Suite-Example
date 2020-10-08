@@ -1,0 +1,20 @@
+spring:
+  profiles: test
+  jpa:
+    hibernate:
+      ddl-auto: create
+    database: h2
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.H2Dialect
+  datasource:
+    url: jdbc:h2:mem:test_suite
+    driver-class-name: org.h2.Driver
+    initialization-mode: always
+    data: classpath:mock-data.sql
+logging:
+  file.name: logs/test/app-test.log
+  level:
+    org.springframework.web: DEBUG
+    org.springframweork.test: DEBUG
+    org.hibernate: DEBUG

@@ -1,0 +1,11 @@
+server:
+  port: 5051
+
+spring:
+  profiles:
+    active: dev
+
+#config.stopBubbling: true
+#lombok:
+#  addJavaxGeneratedAnnotation: true
+#  addLombokGeneratedAnnotation: true

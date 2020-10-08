@@ -1,4 +1,4 @@
-# Test-Suite-Example
+# Test Suite Example using a simple Event Management Webapp
 
 ### Reference Documentation
 To run integration tests use command:
